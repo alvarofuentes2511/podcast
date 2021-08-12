@@ -1,0 +1,50 @@
+@import "./styles-desktop.css";
+@import "./styles-mobile.css";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+button {
+    background: #00F3BB;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+button:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+}
+
+.spotify {
+    color: #060A24;
+}
+
+.instagram {
+    color: #060A24;
+}
+
+.twiter {
+    color: #060A24;
+}
+
+.facebook {
+    color: #060A24;
+}
+
+.telegram {
+    color: #060A24;
+}
+
+.cross-out {
+    text-decoration: line-through;
+}

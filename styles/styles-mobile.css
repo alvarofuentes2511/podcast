@@ -1,0 +1,267 @@
+@media (max-width: 600px) {
+    .header {
+        height: 44px;
+        background: white;
+        width: 90%;
+        padding: 0% 5%;
+        color: #060A24;
+    }
+    .logo {
+        float: left;
+        padding: 10px 0px;
+    }
+    .menu {
+        margin: 0px;
+        float: right;
+        padding: 0% 5%;
+        position: absolute;
+        left: 0;
+        top: 43px;
+        width: 90%;
+        background: #0000EC;
+        text-align: left;
+        display: none;
+    }
+    .hide-menu-btn {
+        display: none;
+    }
+    .show-menu-btn,
+    .hide-menu-btn {
+        font-size: 24px;
+        float: right;
+    }
+    .show-menu-btn i,
+    .hide-menu-btn i {
+        line-height: 44px;
+    }
+    .menu a {
+        display: block;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 12px 0px;
+    }
+    #chk:checked~.menu {
+        display: block;
+    }
+    #chk:checked~.show-menu-btn {
+        display: none;
+    }
+    #chk:checked~.hide-menu-btn {
+        display: block;
+    }
+    #chk {
+        position: absolute;
+        visibility: hidden;
+        z-index: -1111;
+    }
+    /* navbar*/
+    .img-tel {
+        background-image: url("../imagenes/phone.png");
+        width: 320px;
+        height: 519px;
+        background-repeat: no-repeat;
+        background-size: 300px 450px;
+        margin-top: -384px;
+        position: relative;
+        z-index: 0;
+        top: 20px;
+    }
+    .img-invitados-1 {
+        background-image: url("../imagenes/grace-hopper.png");
+        width: 320px;
+        height: 243px;
+        background-repeat: no-repeat;
+        background-size: 320px 243px;
+    }
+    .img-invitados-2 {
+        background-image: url("../imagenes/Katie-Bouman.png");
+        width: 320px;
+        height: 243px;
+        background-repeat: no-repeat;
+        background-size: 320px 243px;
+    }
+    .img-invitados-3 {
+        background-image: url("../imagenes/Margaret_Hamilton.png");
+        width: 320px;
+        height: 243px;
+        background-repeat: no-repeat;
+        background-size: 320px 243px;
+    }
+    .img-invitados-4 {
+        background-image: url("../imagenes/An\ E.R.A.Univac\ 1103\ computer\ in\ the\ 1950s.png");
+        width: 320px;
+        height: 243px;
+        background-repeat: no-repeat;
+        background-size: 320px 243px;
+    }
+    .img-invitados-5 {
+        background-image: url("../imagenes/Computer\ operators\ with\ an\ Eniac\ \ the\ worlds\ first\ programmable\ general\ purpose\ computer.png");
+        width: 320px;
+        height: 243px;
+        background-repeat: no-repeat;
+        background-size: 320px 243px;
+    }
+    .img-invitados-6 {
+        background-image: url("../imagenes/susan-kare.png");
+        width: 320px;
+        height: 243px;
+        background-repeat: no-repeat;
+        background-size: 320px 243px;
+    }
+    p {
+        font-size: 14px;
+        color: #060A24;
+    }
+    .title-white {
+        color: #FFFFFF;
+        margin: 0px 0px 25px 0px;
+        text-align: left;
+    }
+    p {
+        font-size: 14px;
+    }
+    body {
+        margin: 0px;
+    }
+    button {
+        width: 100%;
+        height: 48px;
+    }
+    .orden {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 11px;
+        margin-top: 40px;
+    }
+    .orden1 {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .orden4 {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .background-parallelogram-2 {
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        margin-top: 40px;
+        padding: 65px;
+        text-align: center;
+    }
+    /* episodios */
+    .content-episodios {
+        position: relative;
+        height: 1205px;
+    }
+    .background-imagen-triangulo-1 {
+        clip-path: polygon(100% 0, 100% 100%, 0 100%);
+        background-color: blue;
+        width: 100%;
+        height: 100px;
+    }
+    .background-imagen-triangulo-2 {
+        clip-path: polygon(100% 0, 0 0, 0 100%);
+        background-color: blue;
+        width: 100%;
+        height: 100px;
+        margin-top: -1.00px;
+    }
+    .background-episodios {
+        background-color: blue;
+        padding: 0% 5%;
+        margin-top: -0.27px;
+    }
+    .episodios {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%
+    }
+    .ml-5 {
+        margin: 6% 5%
+    }
+    .mb-24 {
+        margin-bottom: 24px
+    }
+    .spotify {
+        height: 152px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ir {
+        margin-bottom: 24px;
+        margin: 7% 7%;
+    }
+    .invitados {
+        margin-bottom: 24px;
+        margin: 6% 5%;
+    }
+    .temas {
+        margin-bottom: 24px;
+        margin: 6% 5%;
+        margin-left: 25px;
+    }
+    .button2 {
+        width: 267px;
+        height: 44px;
+        margin: -39px;
+        margin-top: 30px;
+    }
+    .redes {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .fa-spotify {
+        margin: 15px;
+    }
+    .fa-instagram {
+        margin: 15px;
+    }
+    .fa-twitter {
+        margin: 15px;
+    }
+    .fa-facebook {
+        margin: 15px;
+    }
+    .fa-telegram {
+        margin: 15px;
+    }
+    .title-white-2 {
+        color: #FFFFFF;
+        font-size: 36px;
+    }
+    .redes-links {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 36px;
+        color: #060A24;
+    }
+    .content-mobile {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .content-desktop {
+        display: none;
+    }
+    .our-planet {
+        margin-top: 10px;
+    }
+    .invitados-madre {
+        margin-top: 40px;
+    }
+    .temas-madre {
+        margin-top: 40px;
+    }
+    #welcome::after {
+        content: ".";
+        color: #060A24;
+    }
+}
